@@ -20,16 +20,15 @@
     <img class= "img-star" src="./images/icon-star.svg" alt="A Star">
     <div class="wrapper">
       <h2>How did we do?</h2>
-      <p>Please let us know how we did with your support request. All feedback is appreciated 
-        to help us improve our offering!</p>
+      <p>Please let us know how we did with your support request. All feedback is appreciated to help us improve our offering!</p>
 
-          <ul class="rate-list | flex">
-            <li><button class="btn-rating">1</button></li>
-            <li><button class="btn-rating">2</button></li>
-            <li><button class="btn-rating">3</button></li>
-            <li><button class="btn-rating">4</button></li>
-            <li><button class="btn-rating">5</button></li>
-          </ul>
+      <ul>
+        <li><button class="btn-rating" data-type="circle">1</button></li>
+        <li><button class="btn-rating">2</button></li>
+        <li><button class="btn-rating">3</button></li>
+        <li><button class="btn-rating">4</button></li>
+        <li><button class="btn-rating">5</button></li>
+      </ul>
         
         <button class="btn btn-submit">submit</button>
     </div>
@@ -38,9 +37,9 @@
 
 
   <!-- Thank you state start -->
-<div class="container thanks">
+<div class="container thanks | hide">
   <img class="img-thank" src="./images/illustration-thank-you.svg" alt="A Phone With Notifications Init">
-  <h3>You selected <span class="rate">5</span> out of 5</h3>
+  <p data-type="orange">You selected <span id="rate">5</span> out of 5</p>
   <h2>Thank you!</h2>
   <p>We appreciate you taking the time to give a rating. If you ever need more support, 
     don’t hesitate to get in touch!</p>
